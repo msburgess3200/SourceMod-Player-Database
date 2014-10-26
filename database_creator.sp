@@ -5,10 +5,10 @@ new Handle:db = INVALID_HANDLE;
 
 public Plugin:myinfo =
 {
-    name = "Steam Inviter",
+    name = "SourceMod Player Database",
     author = "ElitePowered",
-    description = "Source Mod Auto Player Invites",
-    version = "1.0.",
+    description = "Creates a database of players that join a server.",
+    version = "1.0",
     url = "http://www.ElitePowered.com"
 };
 
