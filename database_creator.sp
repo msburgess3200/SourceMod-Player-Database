@@ -26,7 +26,7 @@ public Action:Connect(Handle:plugin)
     }
     
     new String:error[512];
-    hndl = SQL_Connect("steaminvite", true, error, sizeof(error));
+    Handle hndl = SQL_Connect("steaminvite", true, error, sizeof(error));
     
     if (hndl == INVALID_HANDLE)
     {
